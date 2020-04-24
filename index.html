@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Quiz</title>
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Cartoon Quiz</h1>
+        <p class="lead">click the button to start the quiz</p>
+        <hr class="my-4">
+
+        <a class="btn btn-primary btn-lg showQ" href="#" role="button">Start</a>
+    </div>
+
+    <div class="container">
+
+        <div class="row questions">
+            <p class="timer">TIMER</p>
+            <div class="col-md-12">
+                <h1 id="questionHere">Question HERE!</h1>
+                <div class="answersBtn">
+                    <a id="bt1" class="btn btn-primary btn-lg" href="#" role="button">ANSWER 1</a>
+
+                    <a id="bt2" class="btn btn-primary btn-lg" href="#" role="button">ANSWER 2</a>
+
+                    <a id="bt3" class="btn btn-primary btn-lg" href="#" role="button">ANSWER 3</a>
+
+                    <a id="bt4" class="btn btn-primary btn-lg" href="#" role="button">ANSWER 4</a>
+                </div>
+            </div>
+        </div>
+        <div class="row results">
+            <form>
+                <div class="row">
+                    <form class="col">
+                        <input class="initials" type="text" class="form-control" placeholder="Initials">
+                        <input class="btn btn-primary initialsBtn" type="submit" value="Submit">
+                    </form>
+                    <div class="col">
+                        <p class="pointsShow"> </p>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+        <div class="lastScore"></div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
